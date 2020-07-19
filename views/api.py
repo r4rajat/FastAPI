@@ -3,5 +3,5 @@ import constant
 
 
 @app.get('/hello-world')
-def helloWorld():
+async def helloWorld():
     return {constant.MESSAGE: "Hello World!!"}
