@@ -7,3 +7,4 @@ APP_WORKERS = 'APP_WORKERS'
 # Project Constants
 MESSAGE = 'message'
 ERROR_MESSAGE = 'error'
+REQUEST = 'request'
