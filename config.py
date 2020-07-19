@@ -7,4 +7,4 @@ app = FastAPI()
 app.mount('/static', StaticFiles(directory='./static'), name='static')
 template = Jinja2Templates(directory='./templates')
 
-from views import api
+from views import api, tasks
